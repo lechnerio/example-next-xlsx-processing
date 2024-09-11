@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# example-next-xlsx-processing
 
-## Getting Started
+**example-next-xlsx-processing** is a simple repository to explore file uploads and data extraction using **Next.js**. It allows users to upload `.xlsx`, `.xls`, or `.csv` files and displays the first row of the file.
 
-First, run the development server:
+## How to use example-next-xlsx-processing
+
+### File Upload Feature
+
+The **file upload** feature supports `.xlsx`, `.xls`, and `.csv` file formats. Once a file is uploaded, the first row is extracted and displayed.
+
+### Step 1: Install Dependencies
+
+You need to install the necessary dependencies for reading and processing files:
+
+Run the following command in your project directory:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install xlsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 2: Setting up the Upload Component
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Running the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Install project dependencies with the following command:
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Start the development server using:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   The app should now be running locally on `http://localhost:3000`.
 
-## Deploy on Vercel
+## Contributors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to use this example, and if you'd like to contribute, you’re more than welcome to add yourself to the contributors list and submit a pull request!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+|                                             Contributors                                              |
+| :---------------------------------------------------------------------------------------------------: |
+| [![lechnerio](https://github.com/lechnerio.png?size=50)](https://github.com/lechnerio)<br/> lechnerio |
